@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
-  "v8version": "8.3.25.1501",
+  "v8version": "8.3.25.1546",
   "edtVersion": "",
   "srcDir": "src/cf",
   "sourceFormat": "designer",
@@ -98,7 +98,7 @@
   },
   "yaxunit": {
     "vrunnerSettings": "./tools/vrunner.json",
-    "configPath": "./tools/yaxunit.json",
+    "configPath": "./tools/yaxunit_allure.json",
     "publishToAllureReport": true,
     "publishToJUnitReport": false,
     "coverage": true,
