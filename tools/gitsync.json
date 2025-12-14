@@ -4,7 +4,7 @@
   "v8Version": "8.3.27.1688",
   "defaultInfobase": {
     "connectionString": "/FC:/1C_Base/DemoUP_clear",
-    "auth": "Администратор"
+    "auth": ""
   },
   "stages": {
     "gitsync": true
