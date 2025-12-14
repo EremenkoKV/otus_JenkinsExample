@@ -24,7 +24,7 @@
   "repositories": [
     {
       "name": "otus",
-      "path": "C:/hran/DemoUP",
+      "path": "c:/hran/DemoUP",
       "dir": "./src/cf",
       "temp-dir": "",
       "v8version": "8.3.27.1688",
@@ -35,7 +35,7 @@
     {
         "name": "YAXUNIT",
         "extention": "YAXUNIT",
-        "path": ":/hran/DemoUP_yaxunit",
+        "path": "c:/hran/DemoUP_yaxunit",
         "dir": "./src/cfe/yaxunit",
         "temp-dir": "",
         "v8version": "8.3.27.1688",
