@@ -19,7 +19,7 @@
     "edtValidate": false,
     "smoke": false,
     "yaxunit": true,
-    "email": true,
+    "email": false,
     "telegram": false
   },
   "timeout": {
@@ -60,12 +60,12 @@
     "vrunnerSteps": [
       "vanessa --settings ./tools/vrunner.json"
     ],
-    "coverage": true,
+    "coverage": false,
     "dbgsPort": 1550
   },
   "sonarqube": {
     "sonarQubeInstallation": "",
-    "useSonarScannerFromPath": true,
+    "useSonarScannerFromPath": false,
     "sonarScannerToolName": "sonar-scanner",
     "infoBaseUpdateModuleName" : "",
     "branchAnalysisConfiguration": "auto",
@@ -84,12 +84,12 @@
     ],
     "vrunnerSettings": "./tools/vrunner.json",
     "publishToAllureReport": true,
-    "publishToJUnitReport": false
+    "publishToJUnitReport": true
   },
   "smoke": {
     "vrunnerSettings": "./tools/vrunner.json",
     "xddConfigPath": "./tools/xUnitParams.json",
-    "publishToAllureReport": false,
+    "publishToAllureReport": true,
     "publishToJUnitReport": true
   },
   "coverage": {
@@ -100,8 +100,8 @@
     "vrunnerSettings": "./tools/vrunner.json",
     "configPath": "./tools/yaxunit_allure.json",
     "publishToAllureReport": true,
-    "publishToJUnitReport": false,
-    "coverage": true,
+    "publishToJUnitReport": true,
+    "coverage": false,
     "dbgsPort": 1551
   },
   "resultsTransform": {
