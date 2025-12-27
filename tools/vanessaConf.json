@@ -17,7 +17,7 @@
     "Draft"
   ],
   "ДелатьОтчетВФорматеjUnit": true,
-  "ДелатьОтчетВФорматеАллюр": true,
+  "ДелатьОтчетВФорматеАллюр": false,
   "КаталогOutputAllureБазовый": "$workspaceRoot/out/bddallure",
   "КаталогOutputjUnit": "$workspaceRoot/out/junit",
   "ВыгружатьСтатусВыполненияСценариевВФайл": true,

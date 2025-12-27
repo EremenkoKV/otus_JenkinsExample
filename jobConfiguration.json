@@ -84,13 +84,13 @@
     ],
     "vrunnerSettings": "./tools/vrunner.json",
     "publishToAllureReport": true,
-    "publishToJUnitReport": true
+    "publishToJUnitReport": false
   },
   "smoke": {
     "vrunnerSettings": "./tools/vrunner.json",
     "xddConfigPath": "./tools/xUnitParams.json",
     "publishToAllureReport": true,
-    "publishToJUnitReport": true
+    "publishToJUnitReport": false
   },
   "coverage": {
     "dbgsPath": "",
@@ -100,7 +100,7 @@
     "vrunnerSettings": "./tools/vrunner.json",
     "configPath": "./tools/yaxunit_allure.json",
     "publishToAllureReport": true,
-    "publishToJUnitReport": true,
+    "publishToJUnitReport": false,
     "coverage": false,
     "dbgsPort": 1551
   },
